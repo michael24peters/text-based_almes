@@ -1,1 +1,2 @@
-# rpg
+# Name TBD
+The game is about the training of a young character in a fantastical world. Users play the character from their adolescence and make decisions, talk to people, go on training quests, and encounter events that will shape who they become. These characteristics are represented as stats -- much as you might see in a typical role-playing game -- that are raised (or lowered) as decisions are made and events occur.
