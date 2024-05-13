@@ -9,3 +9,7 @@ X.0.0 (major release milestone)
 - docs: created char_pseudo.txt
 - docs: created CHANGELOG.md
 - feat: character.cpp
+
+## v0.0.2
+- feat: added intro.txt
+  - Rough draft of first scene
