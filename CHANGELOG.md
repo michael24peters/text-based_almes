@@ -13,3 +13,6 @@ X.0.0 (major release milestone)
 ## v0.0.2
 - feat: added intro.txt
   - Rough draft of first scene
+
+## v0.0.3
+- feat: Two rough drafts of second scene in intro.txt

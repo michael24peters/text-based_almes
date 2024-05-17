@@ -1,20 +1,25 @@
 ===SCENE 1===
 
-*A bitter wind whistles in the air. A layer of snow rests on the trees and mountains filling the background. 
+*A bitter wind whistles in the air. A layer of snow rests on the trees and 
+    mountains filling the background. 
 
-*Pan down to two groups of people dressed in formal attire, left and right. In the middle stands a figure with a raven's headdress and antlers.
-A fire is slowly kindled on both sides. Then, a man, a woman, and a child step forward from the left; a man, a woman, and a child step forward from the right. 
-The children pull the fire on each side, meeting in the middle.*
+*Pan down to two groups of people dressed in formal attire, left and right. One 
+    notable exception is a scarred warrior on the right {mentor}. In the middle 
+    stands a figure with a raven's headdress and antlers. A fire is slowly 
+    kindled on both sides. Then, a man, a woman, and a child step forward from 
+    the left; a man, a woman, and a child step forward from the right. The 
+    children pull the fire on each side, meeting in the middle.*
 
 *The man from the left side calls out.* 
 
-"Now let there be peace between us, !!-do."
+"Now let there be peace between us, Ásmundar-do."
 
 "Peace... but for how long?"
 
 "..."
 
-Mysterious figure: "The signs be good, your flames strong. Here gather two houses prepared to swear to peace. Swear to uphold peace." 
+Mysterious figure: "The signs be good, your flames strong. Here gather two 
+    houses prepared to swear to peace. Swear to uphold peace." 
 
 Left: "Krom as my witness, I swear to uphold peace."
 
@@ -34,7 +39,9 @@ Right: "...I swear by the Flame."
 
 Mysterious figure: "Swear by Apep."
 
-*The left appears outraged.*
+Left side, in unison, except for the leading three: "!!"
+
+*A long silence ensues.*
 
 Mysterious figure: "Swear by the serpent god, Apep. Do it."
 
@@ -44,16 +51,94 @@ Right: "I swear by Apep, Bringer of Life."
 
 Mysterious figure: "Then it is done!"
 
-*The mysterious figure looks at the two children. A bass of black, yellow serpent eyes, distortion on the world.
-The camera zooms to the leftmost child, who now walks to the right, then stops, looks back, their family's face obscured by the snow.*
+*The right party exchange some words with the right party. The left side 
+    noticeably stays completely quiet, ready to send their child off without so 
+    much as a word of parting.*
+
+*The mysterious figure looks at the two children. A bass of black, yellow serpent 
+    eyes, distortion on the world. The camera zooms to the leftmost child, who 
+    now walks to the right, then stops, looks back, their family's face obscured 
+    by the snow.*
 
 Mysterious figure: *Go, child.*
 
-*The leftmost child walks to the right family, and the screen fades to black as they both leave the scene.*
+*The leftmost child walks to the right family, and the screen fades to black as 
+    they both leave the scene.*
 
 ===END OF SCENE 1===
 
 ===SCENE 2===
 
+*Camera shows child in a room alone with a garden outside, the seasons changing from one to the next.*
+
+*Cuts to black, and they are now seen running away into the wilderness, The 
+    child hides behind a tree, distant torches and movement in the distance. A 
+    tear rolls down their face.*
+
+*Fade to black.*
+
+*Cut back to the child in that same room alone again, until the mentor walks 
+    through the door.*
+
+Mentor: "So you're the troublemaker, eh? What a miserable little pup you are."
+
+User:
+    "..."
+    "Go away."
+    "Who are you?"
+
+Mentor:
+    {no response}
+    "Looks like you understand very little about the world. I'll just have to fix that."
+    "Your master."
+
+Mentor: "Ásmundar's orders, you're coming with me. Get your belongings."
+
+Child: "..."
+
+Mentor: "Got nothing? Better that way. Let's go."
 
 ===END OF SCENE 2===
+
+===SCENE 2 v2===
+
+*Camera shows child in a room alone with a garden outside, the seasons changing 
+    from one to the next.*
+
+*Cuts to black, and they are now seen running away into the wilderness, somewhat 
+    older than before. The child hides behind a tree, distant torches and 
+    movement in the distance. A tear rolls down their face.*
+
+*Fade to black.*
+
+*Cut back to the child in that same room alone again, until the mentor walks 
+    through the door.*
+
+Mentor: "By the looks of things, I wager this is your first visitor--excepting 
+    the maids and attendants, of course."
+
+User:
+    "..."
+    "So what?"
+    "Go away."
+    "Who are you?"
+
+Mentor:
+    "Not much of an orator, are you? (He laughs.) Words will come." {Wis progress}
+    "Quite the sharp tongue. Time will tell whether it leads you to ruin."
+    "Your words betray an empty life. Alas for you, for I will not."
+    "A fine attempt at cordiality. In time you will learn the proper order of 
+        such things." {Cha progress}
+
+Mentor: "Asmundar-do has placed you under my ward. You will refer to me as Master. 
+    Now, gather your belongings."
+
+Child: "..."
+
+*You have no belongings.*
+
+Master: "(He smiles.) It is only in retrospect that you will learn what a gift 
+    has been granted unto you. Many would sacrifice anything to begin their life 
+    anew, with naught but the clothes on their back.
+
+===END OF SCENE 2 v2===
