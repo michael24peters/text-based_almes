@@ -23,3 +23,8 @@ X.0.0 (major release milestone)
   - Constructors
   - Getters & setters (all class vars are currently private)
   - progress_algorithm declared but not defined
+
+## v0.0.5
+- fix: Character constructors now properly handle hit_points and languages
+- style: changed .cpp to .cc file extension
+- docs: additional comments to Character.cc
