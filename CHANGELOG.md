@@ -39,3 +39,8 @@ X.0.0 (major release milestone)
 
 ## v0.0.8
 - feat: added Makefile
+
+## v0.0.9
+- style: lower case on all files
+- fix: Makefile now compiles without error
+- feat: dummy run.cc file to test make

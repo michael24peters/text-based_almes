@@ -2,7 +2,7 @@
 #include <string>
 #include <map>
 #include <vector>
-#include "Character.h"
+#include "character.h"
 
 class NPC : public Character {
     private:
@@ -34,7 +34,7 @@ class NPC : public Character {
 
         NPC(Character& c, std::string type_, int loc_id_,
         std::vector<bool> interactions_) : Character(c) {
-                type = type;
+                type = type_;
                 loc_id = loc_id_;
                 interactions = interactions_;
             }

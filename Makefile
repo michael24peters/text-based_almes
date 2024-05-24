@@ -4,29 +4,36 @@ CXX = g++
 # Compiler flags
 CXXFLAGS = -Wall -std=c++11
 
-# Target executable
-TARGET = my_program
+# Directories to files
+SRC_DIR := src
+OBJ_DIR := tmp
+BIN_DIR := bin
+INC_DIR := include
+LIB_DIR := lib
 
-# Source files
-SRCS = Character.cc NPC.cc
+INCLUDES := -I./$(INC_DIR)
 
-# Object files
-OBJS = $(SRCS:.cpp=.o)
+# Add libraries
+SOURCES := $(wildcard $(SRC_DIR)/*.cc)
+OBJECTS := $(patsubst $(SRC_DIR)/%.cc,$(OBJ_DIR)/%.o,$(SOURCES))
+EXECUTABLE := $(BIN_DIR)/run.exe
 
 # Default target
-all: $(TARGET)
+all: $(EXECUTABLE)
 
 # Rule to build the target executable
-$(TARGET): $(OBJS)
-	$(CXX) $(CXXFLAGS) -o $(TARGET) $(OBJS)
+$(EXECUTABLE): $(OBJECTS)
+	@mkdir -p $(BIN_DIR)
+	$(CXX) $(CXXFLAGS) -o $@ $^
 
 # Rule to build object files from source files
-%.o: %.cpp
-	$(CXX) $(CXXFLAGS) -c $< -o $@
+$(OBJ_DIR)/%.o: $(SRC_DIR)/%.cc
+	@mkdir -p $(OBJ_DIR)
+	$(CXX) $(CXXFLAGS) -c -o $@ $< $(INCLUDES)
 
 # Clean up build files
 clean:
-	rm -f $(OBJS) $(TARGET)
+	rm -rf $(OBJ_DIR) $(BIN_DIR) $(LIB_DIR)
 
 # Phony targets
 .PHONY: all clean
