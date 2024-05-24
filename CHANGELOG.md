@@ -31,3 +31,8 @@ X.0.0 (major release milestone)
 
 ## v0.0.6
 - feat: added Character.h
+
+## v0.0.7
+- feat: added NPC.cc
+  - Required adding copy constructor to Character
+- refactor: Character constructors reworked
