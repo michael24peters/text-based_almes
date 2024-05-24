@@ -16,3 +16,10 @@ X.0.0 (major release milestone)
 
 ## v0.0.3
 - feat: Two rough drafts of second scene in intro.txt
+
+## v0.0.4
+- style: renamed character.cpp to Character.cpp
+- feat: Character class in Character.cpp
+  - Constructors
+  - Getters & setters (all class vars are currently private)
+  - progress_algorithm declared but not defined
