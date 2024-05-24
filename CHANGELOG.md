@@ -36,3 +36,6 @@ X.0.0 (major release milestone)
 - feat: added NPC.cc
   - Required adding copy constructor to Character
 - refactor: Character constructors reworked
+
+## v0.0.8
+- feat: added Makefile
