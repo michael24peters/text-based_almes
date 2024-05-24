@@ -52,3 +52,7 @@ X.0.0 (major release milestone)
 ## v0.0.11
 - feat: npc.h
 - feat: print() method declared but undefined for Character and NPC
+
+## v0.1.0
+- branch: char branch merged into main
+- docs: README.md updated
