@@ -2,7 +2,7 @@
 #include <string>
 #include <map>
 #include <vector>
-#include "Character.h"
+#include "character.h"
 
 int main() {
     std::cout << "Hello World!" << std::endl;
