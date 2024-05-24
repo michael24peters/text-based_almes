@@ -1,0 +1,173 @@
+===SCENE 1===
+
+*A bitter wind whistles in the air. A layer of snow rests on the trees and 
+    mountains filling the background. 
+
+*Pan down to two groups of people dressed in formal attire, left and right. One 
+    notable exception is a scarred warrior on the right {mentor}. In the middle 
+    stands a figure with a raven's headdress and antlers. A fire is slowly 
+    kindled on both sides. Then, a man, a woman, and a child step forward from 
+    the left; a man, a woman, and a child step forward from the right. The 
+    children pull the fire on each side, meeting in the middle.*
+
+*The man from the left side calls out.* 
+
+"Now let there be peace between us, Ásmundar-do."
+
+"Peace... but for how long?"
+
+"..."
+
+Mysterious figure: "The signs be good, your flames strong. Here gather two 
+    houses prepared to swear to peace. Swear to uphold peace." 
+
+Left: "Krom as my witness, I swear to uphold peace."
+
+Right: "I swear to uphold peace."
+
+Mysterious figure: "Swear by your sons."
+
+Left: "I swear by my second son."
+
+Right: "I swear by my third son."
+
+Mysterious figure: "Swear by the Flame."
+
+Left: "By Krom, I swear by the Flame."
+
+Right: "...I swear by the Flame."
+
+Mysterious figure: "Swear by Apep."
+
+Left side, in unison, except for the leading three: "!!"
+
+*A long silence ensues.*
+
+Mysterious figure: "Swear by the serpent god, Apep. Do it."
+
+Left: "...I...I swear by Apep."
+
+Right: "I swear by Apep, Bringer of Life."
+
+Mysterious figure: "Then it is done!"
+
+*The right party exchange some words with the right party. The left side 
+    noticeably stays completely quiet, ready to send their child off without so 
+    much as a word of parting.*
+
+*The mysterious figure looks at the two children. A bass of black, yellow serpent 
+    eyes, distortion on the world. The camera zooms to the leftmost child, who 
+    now walks to the right, then stops, looks back, their family's face obscured 
+    by the snow.*
+
+Mysterious figure: *Go, child.*
+
+*The leftmost child walks to the right family, and the screen fades to black as 
+    they both leave the scene.*
+
+===END OF SCENE 1===
+
+===SCENE 2===
+
+*Camera shows child in a room alone with a garden outside, the seasons changing from one to the next.*
+
+*Cuts to black, and they are now seen running away into the wilderness, The 
+    child hides behind a tree, distant torches and movement in the distance. A 
+    tear rolls down their face.*
+
+*Fade to black.*
+
+*Cut back to the child in that same room alone again, until the mentor walks 
+    through the door.*
+
+Mentor: "So you're the troublemaker, eh? What a miserable little pup you are."
+
+User:
+    "..."
+    "Go away."
+    "Who are you?"
+
+Mentor:
+    {no response}
+    "Looks like you understand very little about the world. I'll just have to fix that."
+    "Your master."
+
+Mentor: "Ásmundar's orders, you're coming with me. Get your belongings."
+
+Child: "..."
+
+Mentor: "Got nothing? Better that way. Let's go."
+
+===END OF SCENE 2===
+
+===SCENE 2 v2===
+
+*Camera shows child in a room alone with a garden outside, the seasons changing 
+    from one to the next.*
+
+*Cuts to black, and they are now seen running away into the wilderness, somewhat 
+    older than before. The child hides behind a tree, distant torches and 
+    movement in the distance. A tear rolls down their face.*
+
+*Fade to black.*
+
+*Cut back to the child in that same room alone again, until the mentor walks 
+    through the door.*
+
+Mentor: "By the looks of things, I wager this is your first visitor--excepting 
+    the maids and attendants, of course."
+
+User:
+    "..."
+    "So what?"
+    "Go away."
+    "Who are you?"
+
+Mentor:
+    "Not much of an orator, are you? (He laughs.) Words will come." {Wis progress}
+    "Quite the sharp tongue. Time will tell whether it leads you to ruin."
+    "Your words betray an empty life. Alas for you, for I will not."
+    "A fine attempt at cordiality. In time you will learn the proper order of 
+        such things." {Cha progress}
+
+Mentor: "Asmundar-do has placed you under my ward. You will refer to me as Master. 
+    Now, gather your belongings."
+
+Child: "..."
+
+*You have no belongings.*
+
+Master: "(He smiles.) It is only in retrospect that you will learn what a gift 
+    has been granted unto you. Many would sacrifice anything to begin their life 
+    anew, with naught but the clothes on their back.
+
+===END OF SCENE 2 v2===
+
+===RANDOM DIALOGUE===
+Friend of mentor: "'That boy's destined for great things,' he always said, he
+did."
+
+MC: "He never told me that."
+
+Friend of mentor: "Ah, well you mustn't take it too hard! That's just who he 
+was. Why, I didn't think we were friends until one day he saved my life. When I 
+offered to dedicate my life to him for saving it, he refused; when I offered to 
+pay him all I had, he refused; when finally I asked what I could offer him, you 
+know what he did?"
+
+MC: (silent) or "What?"
+
+Friend of mentor: "He laughed! By the bones of Titus I swear, he just shook his
+head, laughed -- by Krom, the first time I ever heard him laugh -- and went about
+his day."
+
+MC: "Sounds like him." or "Why did he do that?" or "What an asshole."
+
+Friend of mentor: "Aye, that it does." or (skip) or "Well..." ... "I thought on 
+it, I did. Thought on it more'n anything I thought about in me life. And as I 
+got to knowin' the man better, I realized, that day, running through that mind 
+o' his, was this: 'Why would a friend owe me a damn thing?' Aye, he never did 
+say it, just like he never said the things you mighta wished he said to ya, but 
+that's just who he was. He never said what was plain to him. And what was plain 
+as day to him was this, my boy: he loved ya. Aye, he loved ya something fierce, 
+like a father loves a son."
