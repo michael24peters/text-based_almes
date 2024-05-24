@@ -9,8 +9,8 @@ class Character {
         int hit_points;
         // Attributes: STRength, INTelligence, WISdom, DEXterity, CONstitution,
         // CHArisma
-        std::map<std::string, float> attr = {{"STR", 3.0},{"INT", 3.0}, {"WIS", 3.0}, {"DEX", 3.0}, {"CON", 3.0}, 
-        {"CHA", 3.0}};
+        std::map<std::string, float> attr = {{"STR", 3.0},{"INT", 3.0}, 
+        {"WIS", 3.0}, {"DEX", 3.0}, {"CON", 3.0}, {"CHA", 3.0}};
         std::map<std::string, float> skills;
         // Combat skills
         std::map<std::string, float> combat;
@@ -67,5 +67,8 @@ class Character {
         }
 
         //***METHODS***//
-        std::vector<float> progress_algorithm(std::map<std::string, float> stat, int quality);
+        std::vector<float> progress_algorithm(std::map<std::string, float> stat,
+            int quality);
+
+        std::string print();
 };

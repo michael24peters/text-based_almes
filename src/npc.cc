@@ -38,4 +38,7 @@ class NPC : public Character {
                 loc_id = loc_id_;
                 interactions = interactions_;
             }
+
+        // Overload Character print() method to include NPC information
+        std::string print();
 };

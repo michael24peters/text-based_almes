@@ -48,3 +48,7 @@ X.0.0 (major release milestone)
 ## v0.0.10
 - feat: added print() to main.cc for slowed text output to sh
 - refactor: created doc/ directory, moved relevant files
+
+## v0.0.11
+- feat: npc.h
+- feat: print() method declared but undefined for Character and NPC

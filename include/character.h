@@ -25,4 +25,6 @@ class Character {
 
         // Updates progress of stats
         std::vector<float> progress_algorithm(std::map<std::string, float> stat, int quality);
+
+        std::string print();
 };
