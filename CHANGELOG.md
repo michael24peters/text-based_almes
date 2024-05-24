@@ -28,3 +28,6 @@ X.0.0 (major release milestone)
 - fix: Character constructors now properly handle hit_points and languages
 - style: changed .cpp to .cc file extension
 - docs: additional comments to Character.cc
+
+## v0.0.6
+- feat: added Character.h
