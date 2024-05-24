@@ -142,3 +142,32 @@ Master: "(He smiles.) It is only in retrospect that you will learn what a gift
     anew, with naught but the clothes on their back.
 
 ===END OF SCENE 2 v2===
+
+===RANDOM DIALOGUE===
+Friend of mentor: "'That boy's destined for great things,' he always said, he
+did."
+
+MC: "He never told me that."
+
+Friend of mentor: "Ah, well you mustn't take it too hard! That's just who he 
+was. Why, I didn't think we were friends until one day he saved my life. When I 
+offered to dedicate my life to him for saving it, he refused; when I offered to 
+pay him all I had, he refused; when finally I asked what I could offer him, you 
+know what he did?"
+
+MC: (silent) or "What?"
+
+Friend of mentor: "He laughed! By the bones of Titus I swear, he just shook his
+head, laughed -- by Krom, the first time I ever heard him laugh -- and went about
+his day."
+
+MC: "Sounds like him." or "Why did he do that?" or "What an asshole."
+
+Friend of mentor: "Aye, that it does." or (skip) or "Well..." ... "I thought on 
+it, I did. Thought on it more'n anything I thought about in me life. And as I 
+got to knowin' the man better, I realized, that day, running through that mind 
+o' his, was this: 'Why would a friend owe me a damn thing?' Aye, he never did 
+say it, just like he never said the things you mighta wished he said to ya, but 
+that's just who he was. He never said what was plain to him. And what was plain 
+as day to him was this, my boy: he loved ya. Aye, he loved ya something fierce, 
+like a father loves a son."

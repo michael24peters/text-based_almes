@@ -44,3 +44,7 @@ X.0.0 (major release milestone)
 - style: lower case on all files
 - fix: Makefile now compiles without error
 - feat: dummy run.cc file to test make
+
+## v0.0.10
+- feat: added print() to main.cc for slowed text output to sh
+- refactor: created doc/ directory, moved relevant files
