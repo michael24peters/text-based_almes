@@ -10,10 +10,11 @@ Download this repo by downloading the zipped file and unzipping it; alternativel
 
 Then move to the directory you just created and build the program using the commands:
 
-`make`
+`cmake -B./build`
+`cmake --build ./build`
 
 ## Usage
 
 You can use the program by running the main executable:
 
-`./bin/main.cc`
+`./bin/run`

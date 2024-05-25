@@ -72,3 +72,6 @@ X.0.0 (major working state)
 - feat: CMakeLists.txt
 - build: Manually-written Makefile replaced with CMake
 - feat: .gitignore ignores files created by CMake (bin/ and build/)
+
+## v0.1.4
+- docs: updated README.md
