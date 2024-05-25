@@ -67,3 +67,8 @@ X.0.0 (major working state)
   - .cc file defines what is declared by an associated .h file
   - Include .h file in .cc file, not the other way around
   - Added guards to .h files (ifndef)
+
+## v0.1.3
+- feat: CMakeLists.txt
+- build: Manually-written Makefile replaced with CMake
+- feat: .gitignore ignores files created by CMake (bin/ and build/)
