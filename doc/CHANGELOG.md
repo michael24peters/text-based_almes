@@ -1,9 +1,9 @@
 # CHANGELOG
 Below are the current contributions to the project, divided into versions in order of release. Branch version are organized by:
 
-X.0.0 (major release milestone)
-0.Y.0 (branch release)
-0.0.Z (features/changes/fixes within a branch)
+X.0.0 (major working state)
+0.Y.0 (branch)
+0.0.Z (features/changes/fixes)
 
 ## v0.0.1
 - docs: created char_pseudo.txt
@@ -56,3 +56,8 @@ X.0.0 (major release milestone)
 ## v0.1.0
 - branch: char branch merged into main
 - docs: README.md updated
+
+## v0.1.1
+- feat: .pre-commit-config.yaml
+  - https://github.com/pre-commit/pre-commit-hooks 
+  - https://github.com/pocc/pre-commit-hooks
