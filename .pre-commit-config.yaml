@@ -19,11 +19,13 @@ repos:
     rev: master
     hooks:
       - id: clang-format
-        args: [--style=Google]
-      - id: clang-tidy
-      - id: oclint
-      - id: uncrustify
-      - id: cpplint
+        args: ["--style=llvm", "-i"]
+#      - id: clang-tidy
+#        args: ["--fix-errors"]
+#      - id: oclint
+#      - id: uncrustify
+#        args: ["--replace", "--no-backup"]
+#      - id: cpplint
 
 ci:
     autofix_commit_msg: |
