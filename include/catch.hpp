@@ -4437,22 +4437,16 @@ struct IGeneratorTracker {
 
 namespace Catch {
 #if !defined(CATCH_CONFIG_DISABLE_EXCEPTIONS)
-template <typename Ex>
-[[noreturn]]
-void throw_exception(Ex const &e) {
+template <typename Ex> [[noreturn]] void throw_exception(Ex const &e) {
   throw e;
 }
 #else // ^^ Exceptions are enabled //  Exceptions are disabled vv
-[[noreturn]]
-void throw_exception(std::exception const &e);
+[[noreturn]] void throw_exception(std::exception const &e);
 #endif
 
-[[noreturn]]
-void throw_logic_error(std::string const &msg);
-[[noreturn]]
-void throw_domain_error(std::string const &msg);
-[[noreturn]]
-void throw_runtime_error(std::string const &msg);
+[[noreturn]] void throw_logic_error(std::string const &msg);
+[[noreturn]] void throw_domain_error(std::string const &msg);
+[[noreturn]] void throw_runtime_error(std::string const &msg);
 
 } // namespace Catch
 
@@ -11106,8 +11100,7 @@ void formatReconstructedExpression(std::ostream &os, std::string const &lhs,
 namespace Catch {
 #if defined(CATCH_CONFIG_DISABLE_EXCEPTIONS) &&                                \
     !defined(CATCH_CONFIG_DISABLE_EXCEPTIONS_CUSTOM_HANDLER)
-[[noreturn]]
-void throw_exception(std::exception const &e) {
+[[noreturn]] void throw_exception(std::exception const &e) {
   Catch::cerr()
       << "Catch will terminate because it needed to throw an exception.\n"
       << "The message was: " << e.what() << '\n';
@@ -11115,18 +11108,15 @@ void throw_exception(std::exception const &e) {
 }
 #endif
 
-[[noreturn]]
-void throw_logic_error(std::string const &msg) {
+[[noreturn]] void throw_logic_error(std::string const &msg) {
   throw_exception(std::logic_error(msg));
 }
 
-[[noreturn]]
-void throw_domain_error(std::string const &msg) {
+[[noreturn]] void throw_domain_error(std::string const &msg) {
   throw_exception(std::domain_error(msg));
 }
 
-[[noreturn]]
-void throw_runtime_error(std::string const &msg) {
+[[noreturn]] void throw_runtime_error(std::string const &msg) {
   throw_exception(std::runtime_error(msg));
 }
 
