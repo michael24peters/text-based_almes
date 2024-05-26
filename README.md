@@ -6,7 +6,7 @@ Welcome to Almēs, a game about following a child to adulthood (and beyond) in a
 
 ## Installation
 
-Download this repo by downloading the zipped file and unzipping it; alternatively, clone the repository using the command:
+Download this repository by downloading the zipped file and unzipping it; alternatively, clone the repository using the command:
 
 `git clone https://github.com/michael24peters/rpg.git`.
 
