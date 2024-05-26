@@ -75,3 +75,7 @@ X.0.0 (major working state)
 
 ## v0.1.4
 - docs: updated README.md
+
+## v0.1.5
+- feat: pre-commit.ci integration
+- feat: super-linter.yml GitHub Actions
