@@ -7,4 +7,6 @@ jobs:
     - uses: actions/checkout@v1
     - uses: actions/setup-python@v1
     - run: pip install cpplint
-    - run: python -m cpplint --recursive --exclude=source/catch.hpp --filter=-legal/copyright
+    - run: python -m cpplint [--recursive] [--exclude=source/catch.hpp]
+        [--filter=-legal/copyright]
+        .
