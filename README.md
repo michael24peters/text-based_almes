@@ -1,4 +1,6 @@
 # README
+[![Super-Linter](https://github.com/<OWNER>/<REPOSITORY>/actions/workflows/<WORKFLOW_FILE_NAME>/badge.svg)](https://github.com/marketplace/actions/super-linter)
+
 ## Almēs
 Welcome to Almēs, a game about following a child to adulthood (and beyond) in a fantastical world. The decisions made in-game will shape who they are and will become.
 
