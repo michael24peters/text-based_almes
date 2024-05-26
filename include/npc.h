@@ -1,34 +1,35 @@
 #ifndef NPC_H
 #define NPC_H
 
-#include <string>
-#include <map>
-#include <vector>
 #include "character.h"
+#include <map>
+#include <string>
+#include <vector>
 
 class NPC : public Character {
-        private:
-                std::string type;
-        public:
-                int loc_id;
-                std::vector<bool> interactions;
+private:
+  std::string type;
 
-        //***CONSTRUCTORS***//
-        NPC();
+public:
+  int loc_id;
+  std::vector<bool> interactions;
 
-        // Nearly-default constructor
-        NPC(std::string name_);
+  //***CONSTRUCTORS***//
+  NPC();
 
-        // Construct generic NPC based on type
-        NPC(std::string name_, std::string type_, int loc_id_);
+  // Nearly-default constructor
+  NPC(std::string name_);
 
-        // Fully parameterized constructor
-        NPC(Character& c, std::string type_, int loc_id_,
-        std::vector<bool> interactions_);
+  // Construct generic NPC based on type
+  NPC(std::string name_, std::string type_, int loc_id_);
 
-        //***METHODS***//
-        // Overload Character print() method to include NPC information
-        std::string print();
+  // Fully parameterized constructor
+  NPC(Character &c, std::string type_, int loc_id_,
+      std::vector<bool> interactions_);
+
+  //***METHODS***//
+  // Overload Character print() method to include NPC information
+  std::string print();
 };
 
 #endif // NPC_H

@@ -59,8 +59,8 @@ X.0.0 (major working state)
 
 ## v0.1.1
 - feat: .pre-commit-config.yaml
-  - https://github.com/pre-commit/pre-commit-hooks
-  - https://github.com/pocc/pre-commit-hooks
+  - [pre-commit-hooks](https://github.com/pre-commit/pre-commit-hooks)
+  - [c++ pre-commit-hooks](https://github.com/pocc/pre-commit-hooks)
 
 ## v0.1.2
 - fix: character and npc .cc and .h files
@@ -75,3 +75,7 @@ X.0.0 (major working state)
 
 ## v0.1.4
 - docs: updated README.md
+
+## v0.1.5
+- feat: pre-commit.ci integration
+- feat: super-linter.yml GitHub Actions
