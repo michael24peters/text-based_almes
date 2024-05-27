@@ -28,6 +28,8 @@ public:
       std::vector<bool> interactions_);
 
   //***METHODS***//
+  // type getter()
+  std::string get_type();
   // Overload Character print() method to include NPC information
   std::string print();
 };

@@ -118,3 +118,8 @@ X.0.0 (major working state)
 
 - feat(qol): buildAndTest.sh automatically builds, performs clang-format, and runs all tests
 - feat(qol): buildAndTest.cmd for Windows support
+
+## v0.1.11
+
+- test: test_npc.cc constructors
+- fix: getter for npc.cc type var
