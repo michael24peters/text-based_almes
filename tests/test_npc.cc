@@ -95,7 +95,7 @@ TEST_CASE("npc constructors") {
     REQUIRE(npc_param.supernatural == c_param.supernatural);
     REQUIRE(npc_param.elder_races == c_param.elder_races);
     // type is a private variable
-    REQUIRE(npc_param.get_type() == "warrior");
+    REQUIRE(npc_param.get_type() == "half-orc");
     REQUIRE(npc_param.loc_id == 1);
     REQUIRE(npc_param.interactions == interactions);
   }

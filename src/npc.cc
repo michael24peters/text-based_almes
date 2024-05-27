@@ -7,7 +7,7 @@
 
 //***CONSTRUCTORS***//
 // Default constructor
-NPC::NPC() : loc_id(0), type("Unknown"), interactions({false}), {}
+NPC::NPC() : loc_id(0), type("Unknown"), interactions({false}) {}
 
 // Nearly-default constructor
 NPC::NPC(std::string name_)

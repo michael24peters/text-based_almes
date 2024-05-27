@@ -28,7 +28,7 @@ set(SOURCE_FILES ${CMAKE_SOURCE_DIR}/src/character.cc
 
 # Set the test files
 set(TEST_FILES ${CMAKE_SOURCE_DIR}/tests/test_char.cc
-    ${CMAKE_SOURCE_DIR}/tests/test.cc)
+    ${CMAKE_SOURCE_DIR}/tests/test_npc.cc)
 
 # Add the main executable
 add_executable(run.exe ${CMAKE_SOURCE_DIR}/src/main.cc ${HEADER_FILES})

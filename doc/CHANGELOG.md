@@ -123,3 +123,4 @@ X.0.0 (major working state)
 
 - test: test_npc.cc constructors
 - fix: getter for npc.cc type var
+- refactor(compile): updated CMakeLists.txt tests
