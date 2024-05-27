@@ -117,3 +117,4 @@ X.0.0 (major working state)
 ## v0.1.10
 
 - feat(qol): buildAndTest.sh automatically builds, performs clang-format, and runs all tests
+- feat(qol): buildAndTest.cmd for Windows support
