@@ -43,19 +43,25 @@ TEST_CASE("character constructors") {
     REQUIRE(c_def.name == "Nameless One");
     REQUIRE(c_def.hit_points == 1);
     REQUIRE(c_def.attr == def_attr);
-    REQUIRE(c_def.skills == empty && c_def.combat == empty &&
-            c_def.religions == empty && c_def.histories == empty &&
-            c_def.supernatural == empty && c_def.elder_races == empty);
+    REQUIRE(c_def.skills == empty);
+    REQUIRE(c_def.combat == empty);
+    REQUIRE(c_def.religions == empty);
+    REQUIRE(c_def.histories == empty);
+    REQUIRE(c_def.supernatural == empty);
+    REQUIRE(c_def.elder_races == empty);
     REQUIRE(c_def.languages == def_lang);
   }
   SECTION("name constructor") {
-    REQUIRE(c_def.name == "Balthazar");
-    REQUIRE(c_def.hit_points == 1);
-    REQUIRE(c_def.attr == def_attr);
-    REQUIRE(c_def.skills == empty && c_def.combat == empty &&
-            c_def.religions == empty && c_def.histories == empty &&
-            c_def.supernatural == empty && c_def.elder_races == empty);
-    REQUIRE(c_def.languages == def_lang);
+    REQUIRE(c_name.name == "Balthazar");
+    REQUIRE(c_name.hit_points == 1);
+    REQUIRE(c_name.attr == def_attr);
+    REQUIRE(c_name.skills == empty);
+    REQUIRE(c_name.combat == empty);
+    REQUIRE(c_name.religions == empty);
+    REQUIRE(c_name.histories == empty);
+    REQUIRE(c_name.supernatural == empty);
+    REQUIRE(c_name.elder_races == empty);
+    REQUIRE(c_name.languages == def_lang);
   }
   SECTION("full parameterized constructor") {
     REQUIRE(c_param.name == name);

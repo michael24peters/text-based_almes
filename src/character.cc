@@ -11,10 +11,11 @@ Character::Character()
       languages({{"northern", 1.0}}), religions({}), histories({}),
       supernatural({}), elder_races({}) {}
 
-// Nearly-default constructor (User character)
+// Nearly-default constructor
+// NOTE: User character needs default language set to 0.5
 Character::Character(std::string name_)
     : name(name_), hit_points(1), skills({}), combat({}),
-      languages({{"northern", 0.5}}), religions({}), histories({}),
+      languages({{"northern", 1.0}}), religions({}), histories({}),
       supernatural({}), elder_races({}) {}
 
 // Full parameterized constructor
