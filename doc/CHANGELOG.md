@@ -108,3 +108,12 @@ X.0.0 (major working state)
 ## v0.1.8
 
 - docs: updated README.md
+
+## v0.1.9
+
+- fix(test): test_char.cc constructors
+- refactor: character.cc defaults
+
+## v0.1.10
+
+- feat(qol): buildAndTest.sh automatically builds, performs clang-format, and runs all tests
