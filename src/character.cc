@@ -7,20 +7,15 @@
 //***CONSTRUCTORS***//
 // Default constructor
 Character::Character()
-    : name("Nameless One"), hit_points(1), attr({{"STR", 10.0},
-                                                 {"INT", 10.0},
-                                                 {"WIS", 10.0},
-                                                 {"DEX", 10.0},
-                                                 {"CON", 10.0},
-                                                 {"CHA", 10.0}}),
-      skills({}), combat({}), languages({{"northern", 1.0}}), religions({}),
-      histories({}), supernatural({}), elder_races({}) {}
+    : name("Nameless One"), hit_points(1), skills({}), combat({}),
+      languages({{"northern", 1.0}}), religions({}), histories({}),
+      supernatural({}), elder_races({}) {}
 
-// Nearly-default constructor
-Character::Character(std::string name_) : name(name_) {
-  languages["northern"] = 0.5;
-  hit_points = 1;
-}
+// Nearly-default constructor (User character)
+Character::Character(std::string name_)
+    : name(name_), hit_points(1), skills({}), combat({}),
+      languages({{"northern", 0.5}}), religions({}), histories({}),
+      supernatural({}), elder_races({}) {}
 
 // Full parameterized constructor
 Character::Character(std::string name_, int hit_points_,
