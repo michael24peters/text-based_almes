@@ -104,3 +104,7 @@ X.0.0 (major working state)
 ## v0.1.7
 
 - test: test_char.cc now tests Character constructors
+
+## v0.1.8
+
+- docs: updated README.md

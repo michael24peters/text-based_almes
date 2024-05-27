@@ -1,7 +1,7 @@
 # README
-[![Super-Linter](https://github.com/<OWNER>/<REPOSITORY>/actions/workflows/<WORKFLOW_FILE_NAME>/badge.svg)](https://github.com/marketplace/actions/super-linter)
 
 ## Almēs
+
 Welcome to Almēs, a game about following a child to adulthood (and beyond) in a fantastical world. The decisions made in-game will shape who they are and will become.
 
 ## Installation
@@ -19,4 +19,4 @@ Then move to the directory you just created and build the program using the comm
 
 You can use the program by running the main executable:
 
-`./bin/run`
+`./build/bin/run.exe`
