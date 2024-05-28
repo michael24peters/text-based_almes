@@ -31,7 +31,7 @@ set(TEST_FILES ${CMAKE_SOURCE_DIR}/tests/test_char.cc
     ${CMAKE_SOURCE_DIR}/tests/test_npc.cc)
 
 # Add the main executable
-add_executable(run.exe ${CMAKE_SOURCE_DIR}/src/main.cc ${HEADER_FILES})
+add_executable(run.exe ${CMAKE_SOURCE_DIR}/src/main.cc ${HEADER_FILES} ${SOURCE_FILES})
 
 # Add the test executable
 add_executable(run_tests.exe ${TEST_FILES} ${HEADER_FILES} ${SOURCE_FILES})

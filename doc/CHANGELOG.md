@@ -124,3 +124,7 @@ X.0.0 (major working state)
 - test: test_npc.cc constructors
 - fix: getter for npc.cc type var
 - refactor(compile): updated CMakeLists.txt tests
+
+## v0.1.12
+
+- fix(compile): run.exe needed linking to src/ files
