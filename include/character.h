@@ -15,9 +15,10 @@ public:
                                        {"CON", 3.0}, {"CHA", 3.0}};
   std::map<std::string, float> skills;
   std::map<std::string, float> combat;
-  // 1 = broken speech; 2 = fluent speech; 3 = basic literacy; 4 = fluency
-  // -1 = basic literacy; -2 = literate; -3 = broken speech; -4 = fluency
-  std::map<std::string, float> languages;
+  // 1 = basic literacy; 2 = literate; 3 = well-read; 4 = scholar
+  std::map<std::string, float> l_languages;
+  // 1 = broken speech; 2 = fluent speech; 3 = well-spoken; 4 = orator
+  std::map<std::string, float> s_languages;
   std::map<std::string, float> religions;
   std::map<std::string, float> histories;
   std::map<std::string, float> cultures;
@@ -33,7 +34,8 @@ public:
             std::map<std::string, float> attr_,
             std::map<std::string, float> skills_,
             std::map<std::string, float> combat_,
-            std::map<std::string, float> languages_,
+            std::map<std::string, float> s_languages_, // Spoken languages
+            std::map<std::string, float> l_languages_, // Literate languages
             std::map<std::string, float> religions_,
             std::map<std::string, float> histories_,
             std::map<std::string, float> cultures_,

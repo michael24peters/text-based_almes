@@ -30,6 +30,14 @@ set(SOURCE_FILES ${CMAKE_SOURCE_DIR}/src/character.cc
 set(TEST_FILES ${CMAKE_SOURCE_DIR}/tests/test_char.cc
     ${CMAKE_SOURCE_DIR}/tests/test_npc.cc)
 
+# Add an option to include test_main.cc
+option(INCLUDE_TEST_MAIN "Include test_main.cc in the test executable" OFF)
+
+# Conditionally add test_main.cc to the test files
+if (INCLUDE_TEST_MAIN)
+    list(APPEND TEST_FILES ${CMAKE_SOURCE_DIR}/tests/test_main.cc)
+endif()
+
 # Add the main executable
 add_executable(run.exe ${CMAKE_SOURCE_DIR}/src/main.cc ${HEADER_FILES} ${SOURCE_FILES})
 
