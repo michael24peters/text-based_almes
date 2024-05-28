@@ -12,8 +12,14 @@ Download this repository by downloading the zipped file and unzipping it; altern
 
 Then move to the directory you just created and build the program using the commands:
 
-`cmake -B./build`
+`cmake -B ./build`
 `cmake --build ./build`
+
+Alternatively, for `sh`, you can build and run the program using a single command:
+
+`./tools/scripts/buildAndRun.sh`
+
+There is currently no `cmd` (Windows compatible) version of this.
 
 ## Usage
 
