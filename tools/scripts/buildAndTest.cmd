@@ -9,7 +9,7 @@ REM entire project
 REM 1. Configure build
 cmake -B build
 
-REM 2. Run the actual build
+REM 2. Run the build
 cmake --build build
 
 REM 3. Make sure pre-commit is installed first

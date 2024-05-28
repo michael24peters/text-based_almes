@@ -9,7 +9,7 @@
 # 1. Configure build
 cmake -B ./build
 
-# 2. Run the actual build
+# 2. Run the build
 cmake --build ./build
 
 # 3. Make sure pre-commit is installed first
