@@ -7,7 +7,7 @@
 TEST_CASE("character constructors") {
   // Fully paramaterized values
   std::string name = "Tharrack";
-  int hit_points = 33;
+  int hit_points = 72;
   std::map<std::string, float> attr = {{"STR", 13.0}, {"INT", 8.0},
                                        {"WIS", 6.0},  {"DEX", 12.0},
                                        {"CON", 19.0}, {"CHA", 3.0}};

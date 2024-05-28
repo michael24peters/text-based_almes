@@ -1,4 +1,3 @@
-#include "character.h"
 #include <iostream>
 #include <map>
 #include <string>
@@ -7,21 +6,47 @@
 #include <chrono> // std::chrono::seconds
 #include <thread> // std::this_thread::sleep_for
 
-void print(std::string s) {
+#include "character.h"
+
+void msg(std::string s) {
   // Traverse the given string S
   for (int i = 0; i < s.length(); i++) {
 
     std::cout << s[i] << std::flush;
 
     // Waits for 50 milliseconds
-    std::this_thread::sleep_for(std::chrono::milliseconds(75));
+    std::this_thread::sleep_for(std::chrono::milliseconds(50));
   }
 }
 
 int main() {
-  std::string s = "Hello World!";
+  std::string s = "Let's take a look at Tharrack's character sheet.";
 
-  print(s);
+  msg(s);
+
+  std::string name = "Tharrack";
+  int hit_points = 72;
+  std::map<std::string, float> attr = {{"STR", 13.5},  {"INT", 8.1},
+                                       {"WIS", 6.0},   {"DEX", 12.0},
+                                       {"CON", 18.99}, {"CHA", 3.0}};
+  std::map<std::string, float> skills = {
+      {"athletics", 2.0}, {"horseriding", 1.0}, {"trapping", 2.0}};
+  std::map<std::string, float> combat = {{"sword", 3.0},
+                                         {"glaive-guisarme", 4.0}};
+  std::map<std::string, float> languages = {
+      {"common", 1.5}, {"beastfolk", 1.0}, {"old oeridian", -0.5}};
+  std::map<std::string, float> religions = {{"death goddess", 1.0},
+                                            {"animism", 1.0}};
+  std::map<std::string, float> histories = {{"adri forest", 0.5}};
+  std::map<std::string, float> cultures = {{"adri barbarians", 3.0},
+                                           {"flinty hills", 1.0}};
+  std::map<std::string, float> supernatural = {};
+  std::map<std::string, float> elder_races = {{"mi-go", 1.0}};
+
+  Character tharrack(name, hit_points, attr, skills, combat, languages,
+                     religions, histories, cultures, supernatural, elder_races);
+
+  tharrack.print();
 
   return 0;
 }

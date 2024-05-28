@@ -44,7 +44,8 @@ public:
   //***METHODS***//
   std::vector<float> progress_algorithm(std::map<std::string, float> stat,
                                         int quality);
-  std::string print();
+  // Print character sheet
+  void print();
 };
 
 #endif // CHARACTER_H

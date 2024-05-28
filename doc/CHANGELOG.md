@@ -128,3 +128,7 @@ X.0.0 (major working state)
 ## v0.1.12
 
 - fix(compile): run.exe needed linking to src/ files
+
+## v0.1.13
+
+- feat: print() for character.cc w/ test in main.cc
