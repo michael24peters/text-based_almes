@@ -135,4 +135,12 @@ X.0.0 (major working state)
 
 ## v0.1.14
 
-- feat(compile): buildAndRun.sh, "--format" flag added to buildAnd(Test/Run)
+- feat(compile): buildAndRun.sh, "-f" flag added to buildAnd(Test/Run)
+
+## v0.1.15
+
+- feat: character.cc print() w/ associated tests
+- fix: languages now broken into spoken and literate
+  - tests updated
+- feat(compile): optionally print() test w/ -a flag
+- fix(compile); buildAndRun.sh -f flag
