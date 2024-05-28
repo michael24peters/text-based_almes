@@ -15,12 +15,13 @@ cmake -B ./build
 # 2. Run the build
 cmake --build ./build
 
-FLAG_FORMAT=false
+# 3. Optional (clang-)format
+FLAG_F=false
 
-while getopts "format" opt; do
+while getopts "f" opt; do
   case $opt in
-    format)
-      FLAG_FORMAT=true
+    f)
+      FLAG_F=true
       ;;
     \?)
       echo "Invalid option: -$OPTARG" >&2
@@ -28,7 +29,7 @@ while getopts "format" opt; do
   esac
 done
 
-if [ "$FLAG_FORMAT" = true ]; then
+if [ "$FLAG_F" = true ]; then
   # Make sure pre-commit is installed first
   pre-commit install
 
