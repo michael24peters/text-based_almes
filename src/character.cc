@@ -17,7 +17,7 @@ Character::Character()
       histories({}), supernatural({}), elder_races({}) {}
 
 // Nearly-default constructor
-// NOTE: User character needs default language set to 0.5
+// NOTE: User character needs default language set to 1.0
 Character::Character(std::string name_)
     : name(name_), hit_points(1), skills({}), combat({}),
       s_languages({{"northern", 1.0}}), l_languages({}), religions({}),

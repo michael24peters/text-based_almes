@@ -48,7 +48,6 @@ void msg(std::string line, int pace = 40) {
       std::cout << s[i] << std::flush;
 
       // If there is a period mark, wait longer
-      // TODO: #19 fix delay at end of dialogue lines for quotation marks
       // TODO: #18 more timing options and control for msg()
       if (s[i] == '.') {
         std::this_thread::sleep_for(std::chrono::milliseconds(10 * pace));
@@ -62,13 +61,12 @@ void msg(std::string line, int pace = 40) {
       std::this_thread::sleep_for(std::chrono::milliseconds(pace));
     }
   }
+  std::cout << std::endl;
 }
 
 void intro_1() {
-  std::vector<std::string> intro = {};
-
   msg("*A bitter wind whistles in the air. A layer of snow rests on the trees "
-      "and mountains filling the background.*\n\n",
+      "and mountains filling the background.*",
       30);
 
   msg("*In this wintery valley are two groups of people dressed in formal "
@@ -78,67 +76,77 @@ void intro_1() {
       "slowly kindled on both sides. Then, a man, a woman, and a child step "
       "forward from the left; a man, a woman, and a child step forward from "
       "the right. The children pull the fire on each side, meeting in the "
-      "middle.*\n\n",
+      "middle.*",
       30);
 
-  msg("*The man from the left side calls out.*\n\n", 30);
+  msg("*The man from the left side calls out.*", 30);
 
-  msg("Left Man: \"Now let there be peace between us, Ásmundar-do!\"\n\n");
+  msg("Left Man: Now let there be peace between us, Ásmundar-do!");
 
-  msg("Ásmundar-do: \"Peace... but for how long?\"\n\n");
+  msg("*The man from the right calls back.*");
 
-  std::this_thread::sleep_for(std::chrono::milliseconds(1000));
-
-  msg("Mysterious figure: \"The signs be good, your flames strong. Here gather "
-      "two houses prepared to swear to peace.\"\n...\n\"Swear to uphold "
-      "peace.\"\n\n");
-
-  msg("Left: \"Krom as my witness, I swear to uphold peace.\"\n\n");
-
-  msg("Ásmundar-do: \"I swear to uphold peace.\"\n\n");
-
-  msg("Mysterious figure: \"Swear by your sons.\"\n\n");
-
-  msg("Left: \"I swear by my second son.\"\n\n");
-
-  msg("Ásmundar-do: \"I swear by my third son.\"\n\n");
-
-  msg("Mysterious figure: \"Swear by the Flame.\"\n\n");
-
-  msg("Left: \"By Krom, I swear by the Flame.\"\n\n");
-
-  msg("Ásmundar-do: \"...I swear by the Flame.\"\n\n", 50);
-
-  msg("Mysterious figure: \"Swear by Apep.\"\n\n");
-
-  msg("Left side, in unison, except for the leading three: \"!!\"\n\n");
-
-  msg("*A long silence ensues.*\n\n");
-
-  msg("Mysterious figure: \"Swear by the serpent god, Apep. Do it.\"\n\n");
-
-  msg("Left: \"...");
+  msg("Ásmundar-do: Peace... but for how long?");
 
   std::this_thread::sleep_for(std::chrono::milliseconds(1000));
 
-  msg("I...I swear by Apep.\"\n\n", 60);
+  msg("Mysterious figure: The signs be good, your flames strong. Here gather "
+      "two houses prepared to swear to peace.");
 
-  msg("Ásmundar-do: \"I swear by Apep, Bringer of Life.\"\n\n");
+  msg("...");
 
-  msg("Mysterious figure: \"Then it is done!\"\n\n");
+  std::this_thread::sleep_for(std::chrono::milliseconds(3000));
 
-  msg("*The right party speaks with their son. The left side does not.*\n\n");
+  msg("Mysterious figure: Swear to uphold peace.");
 
-  msg("*The mysterious figure looks at the two children. A bass of black, "
-      "yellow serpent eyes, distortion on the world. The camera zooms to the "
+  msg("Left: Krom as my witness, I swear to uphold peace.");
+
+  msg("Ásmundar-do: I swear to uphold peace.");
+
+  msg("Mysterious figure: Swear by your sons.");
+
+  msg("Left: I swear by my second son.");
+
+  msg("Ásmundar-do: I swear by my third son.");
+
+  msg("Mysterious figure: Swear by the Flame.");
+
+  msg("Left: By Krom, I swear by the Flame.");
+
+  msg("Ásmundar-do: ...I swear by the Flame.", 50);
+
+  msg("Mysterious figure: Swear by Apep.");
+
+  msg("Left side, in unison, except for the leading three: !!");
+
+  msg("*A long silence ensues.*");
+
+  msg("Mysterious figure: Swear by the serpent god, Apep. Do it.");
+
+  msg("Left: ...");
+
+  std::this_thread::sleep_for(std::chrono::milliseconds(1000));
+
+  msg("I...I swear by Apep.", 60);
+
+  msg("Ásmundar-do: I swear by Apep, Bringer of Life.");
+
+  msg("Mysterious figure: Then it is done!");
+
+  msg("*The right party speaks with their son. The left side does not.*");
+
+  msg("*The mysterious figure looks at the two children. Ears crackle; black, "
+      "yellow serpent eyes open in the darkness; distortion on the world. The "
+      "camera zooms to the "
       "leftmost child, who now walks to the right, then stops, looks back, "
-      "their family's face obscured by the snow.*\n\n");
+      "their family's face obscured by the snow.*");
 
-  msg("Mysterious figure: *G o, c h i l d.*\n\n", 80);
+  msg("Mysterious figure: *G o ,  c h i l d.*", 80);
 
   msg("*The leftmost child walks to the right family, and the screen fades to "
-      "black as they both leave the scene.*\n\n");
+      "black as they both leave the scene.*");
 }
+
+void intro_2() { msg(""); }
 
 int main() {
   // std::string testStr = "This is a long string that we want to print in
