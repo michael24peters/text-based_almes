@@ -4,8 +4,6 @@
 
 Welcome to Almēs, a game about following a child to adulthood (and beyond) in a fantastical world. The decisions made in-game will shape who they are and will become.
 
-This repository is intended to serve as a personal C++ programming guide and refresher when needed.
-
 ## Installation
 
 Download this repository by downloading the zipped file and unzipping it; alternatively, clone the repository using the command:
